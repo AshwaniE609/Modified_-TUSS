@@ -7,8 +7,11 @@ This repository contains code and resources for **TUSS**, a deep learning-based 
 ## Features
 
 - PyTorch-based neural network for audio separation
+  
 - Custom dataset loader for mixtures and sources
+
 - Training and evaluation scripts
+
 - Spectrogram visualization tools
 
 ---
@@ -16,17 +19,32 @@ This repository contains code and resources for **TUSS**, a deep learning-based 
 ## Directory Structure
 
 ├── tuss/
+
 │ ├── models/
+
 │ │ ├── tuss.py
+
 │ │ └── config.py
+
 │ ├── dataset.py
+
 │ └── train.py
+
 ├── audio1/
+
 │ ├── Tr1.WAV
+
 │ ├── output0.wav
+
 │ ├── output1.wav
+
 │ ├── output2.wav
+
 │ └── output3.wav
+
 ├── plot_spectrogram.py
+
 ├── README.md
+
 └── requirements.txt
+
